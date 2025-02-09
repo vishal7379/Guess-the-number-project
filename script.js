@@ -1,5 +1,6 @@
 var number=document.getElementById("num");
 var answer;
+
 function changed(){
     answer=Math.floor(Math.random()*100);
     alert("The number is changed");
@@ -7,7 +8,9 @@ function changed(){
     para.innerHTML='';
 
 }
+
 answer=Math.floor(Math.random()*100);
+
 function checked(){
     if(number.value==''){
         alert("Please write the number");
