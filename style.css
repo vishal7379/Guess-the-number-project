@@ -1,0 +1,17 @@
+body{
+    background-color: aquamarine;
+}
+.pageDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.pageDiv > div{
+    margin-top: 90px;
+}
+#num{
+    padding: 4px;
+    border-radius: 2px;
+    
+}
