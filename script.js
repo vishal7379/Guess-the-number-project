@@ -20,7 +20,7 @@ function checked(){
         var para=document.getElementById("message");
         para.innerHTML="The number is less than " + number.value;
         para.style.color="red";
-        para.style.fontSize="20px"
+        para.style.fontSize="25px"
         
         number.value='';
 
